@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Nav from '../components/nav'
-
+import JsXu from '../components/jsXu'
 const Home = () => (
   <div>
     <Head>
@@ -10,7 +10,7 @@ const Home = () => (
     </Head>
 
     <Nav />
-
+    <JsXu>按钮按钮</JsXu>
     <div className='hero'>
       <h1 className='title'>Welcome to Next.js!</h1>
       <p className='description'>

@@ -1,0 +1,1 @@
+export default () => <div>自定义组件</div>
